@@ -17,9 +17,26 @@
         <fieldset>
             <p>
                 <label>Photo Title: </label>
-                <input type="text"
+                <input type="text" >
             </p>
+            <p>
+                <label>Select a photo: </label>
+                <input type="file" >
+            </p>
+            <p>
+                <label>Description: </label>
+                <input type="text" >
+            </p>
+            <p>
+                <label>Date: </label>
+                <input type="text" >
+            </p>
+            <p>Keywords (separated by a semicolon, e.g. keyword1; keyword2; etc.):</p>
+            <input type="text">
+            <p></p>
+            <input type="button" value="Upload" id="uploadBtn">
         </fieldset>
     </form>
 </body>
 </html>
+ 
